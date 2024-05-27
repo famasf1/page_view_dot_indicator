@@ -2,6 +2,7 @@ library page_view_dot_indicator;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 /// PageViewDotIndicator is a widget that shows dots that are usually used
 /// along with a [PageView] widget.
@@ -144,7 +145,7 @@ class _PageViewDotIndicatorState extends State<PageViewDotIndicator> {
         ).createShader(bounds);
       },
       child: Container(
-        width: MediaQuery.of(context).size.width,
+        width: ScreenUtil().screenWidth.w,
         alignment: widget.alignment,
         height: widget.size.height,
         child: ListView.builder(
