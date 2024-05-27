@@ -1,3 +1,7 @@
+# Note
+
+This is a fork and it required `Flutter_ScreenUtil` to be functional.
+
 # Page view dot indicator
 
 [![pub package](https://img.shields.io/pub/v/page_view_dot_indicator?style=plastic&logo=flutter)](https://pub.dev/packages/flutter_formx)
